@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Travel List</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>The Travel List</h1>
+			<form name="todoForm" action="" id="todoForm">
+				<input type="text" name="title" placeholder="Title" required />
+				<input
+					type="text"
+					name="description"
+					placeholder="Description"
+					required
+				/>
+				<input type="text" name="price" placeholder="Price" required />
+				<input type="text" name="imgUrl" placeholder="Image URL" required />
+				<button id="addButton">Add</button>
+			</form>
+		</div>
+		<div id="todoList"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

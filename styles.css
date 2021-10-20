@@ -7,8 +7,7 @@ body {
 	text-align: center;
 	color: #3a4e7a;
 	font-family: "Roboto", sans-serif;
-	background: url(https://i.pinimg.com/736x/ea/60/4e/ea604e5b8c8dd751a0576f0ec1f12ac6.jpg)
-		no-repeat center center fixed;
+	background: url(./images/main-background.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -24,7 +23,7 @@ body {
 	width: 100%;
 	padding-top: 4em;
 	padding-bottom: 4em;
-	background-image: url(https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+	background-image: url(./images/header-background.jpeg);
 	background-position: 0% 25%;
 	background-repeat: no-repeat;
 	background-size: 100%;
